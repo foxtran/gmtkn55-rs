@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+# script for running with ./.res scripts. Produces reactions in table format
+# externals variables: DBNAME_
+
+j=0
+INC=1
+
+COMPS=()
+COEFS=()
+
+while [[ $# -gt 0 ]]; do
+  if [ "$1" == "x" ]; then
+    INC=-1
+    shift
+    continue
+  fi
+  if [ "$INC" == "1" ]; then
+    COMPS+=("$1")
+  else
+    COEFS+=("$1")
+  fi
+  j=$(($j+$INC))
+  if [ "$j" == "0" ]; then
+    break
+  fi
+  shift
+done
+shift
+value=$1
+
+printf ";"
+
+for i in `seq 0 $((${#COMPS[@]}-1))`; do
+  if [ "$i" -gt 0 ]; then
+    printf "%s" " + "
+  fi
+  printf "%s" "${COEFS[$i]} ${DBNAME_}${COMPS[$i]}"
+done
+printf "%s\n" ";${value};kcal/mol"
