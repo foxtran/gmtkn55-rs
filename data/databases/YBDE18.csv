@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 YBDE18_f2s-cbh22 + 1 YBDE18_f2s + 1 YBDE18_cbh22;57.17;kcal/mol
 2;-1 YBDE18_f2s-ch2 + 1 YBDE18_f2s + 1 YBDE18_ch2;91.14;kcal/mol
 3;-1 YBDE18_h2s-cbh22 + 1 YBDE18_h2s + 1 YBDE18_cbh22;20.96;kcal/mol

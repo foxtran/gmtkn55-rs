@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 G2RC_118 + 1 G2RC_117 + 1 G2RC_13;-2.23;kcal/mol
 2;-1 G2RC_40 + -1 G2RC_1 + 1 G2RC_104;-2.26;kcal/mol
 3;-1 G2RC_113 + 1 G2RC_30 + 1 G2RC_8;-2.18;kcal/mol

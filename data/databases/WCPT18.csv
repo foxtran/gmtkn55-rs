@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 WCPT18_reac1 + 1 WCPT18_ts1;36.76;kcal/mol
 2;-1 WCPT18_reac2 + 1 WCPT18_ts2;36.21;kcal/mol
 3;-1 WCPT18_reac3 + 1 WCPT18_ts3;60.95;kcal/mol

@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 RC21_1e + 1 RC21_1p1 + 1 RC21_me;23.43;kcal/mol
 2;-1 RC21_1e + 1 RC21_1p2 + 1 RC21_1p3;26.66;kcal/mol
 3;-1 RC21_2e + 1 RC21_2p1 + 1 RC21_me;24.74;kcal/mol

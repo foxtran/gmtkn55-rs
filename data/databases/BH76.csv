@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 BH76_h + -1 BH76_n2o + 1 BH76_n2ohts;17.7;kcal/mol
 2;-1 BH76_oh + -1 BH76_n2 + 1 BH76_n2ohts;82.6;kcal/mol
 3;-1 BH76_h + -1 BH76_hf + 1 BH76_hfhts;42.1;kcal/mol

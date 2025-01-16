@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;1 AHB21_1 + -1 AHB21_1A + -1 AHB21_1B;-17.79;kcal/mol
 2;1 AHB21_2 + -1 AHB21_2A + -1 AHB21_2B;-32.50;kcal/mol
 3;1 AHB21_3 + -1 AHB21_3A + -1 AHB21_3B;-65.68;kcal/mol

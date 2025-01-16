@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 INV24_H2O + 1 INV24_H2O_TS;31.7;kcal/mol
 2;-1 INV24_H2S + 1 INV24_H2S_TS;69.3;kcal/mol
 3;-1 INV24_SO2 + 1 INV24_SO2_TS;60.6;kcal/mol

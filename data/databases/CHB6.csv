@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;1 CHB6_22 + -1 CHB6_22A + -1 CHB6_22B;-34.43;kcal/mol
 2;1 CHB6_23 + -1 CHB6_23A + -1 CHB6_23B;-23.83;kcal/mol
 3;1 CHB6_24 + -1 CHB6_24A + -1 CHB6_24B;-17.83;kcal/mol

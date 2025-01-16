@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 PNICO23_1 + 1 PNICO23_1a + 1 PNICO23_1b;1.43;kcal/mol
 2;-1 PNICO23_2 + 1 PNICO23_2a + 1 PNICO23_2b;8.02;kcal/mol
 3;-1 PNICO23_3 + 1 PNICO23_3a + 1 PNICO23_3b;0.64;kcal/mol

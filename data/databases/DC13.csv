@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;1 DC13_ISO_E36 + -1 DC13_ISO_P36;-1.0;kcal/mol
 2;-1 DC13_c20cage + 1 DC13_c20bowl;-7.7;kcal/mol
 3;1 DC13_heptatriyne + -1 DC13_heptahexaene;-15.2;kcal/mol

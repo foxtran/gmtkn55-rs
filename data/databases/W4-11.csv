@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 W4-11_h2 + 2 W4-11_h;109.493;kcal/mol
 2;-1 W4-11_alh3 + 1 W4-11_al + 3 W4-11_h;213.169;kcal/mol
 3;-1 W4-11_alh + 1 W4-11_al + 1 W4-11_h;73.570;kcal/mol

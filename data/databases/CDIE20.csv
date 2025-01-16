@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 CDIE20_R20 + 1 CDIE20_P20;-3.3;kcal/mol
 2;-1 CDIE20_R21 + 1 CDIE20_P20;4.4;kcal/mol
 3;-1 CDIE20_R22 + 1 CDIE20_P22;-5.9;kcal/mol

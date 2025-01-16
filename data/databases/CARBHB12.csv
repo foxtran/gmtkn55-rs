@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 CARBHB12_1O + 1 CARBHB12_1O_A + 1 CARBHB12_1O_B;5.370;kcal/mol
 2;-1 CARBHB12_2O + 1 CARBHB12_2O_A + 1 CARBHB12_2O_B;6.047;kcal/mol
 3;-1 CARBHB12_3O + 1 CARBHB12_3O_A + 1 CARBHB12_3O_B;2.421;kcal/mol

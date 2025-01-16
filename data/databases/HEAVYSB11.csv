@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;2 HEAVYSB11_geh3 + -1 HEAVYSB11_ge2h6;73.82;kcal/mol
 2;2 HEAVYSB11_snme3 + -1 HEAVYSB11_sn2me6;61.74;kcal/mol
 3;2 HEAVYSB11_pbme3 + -1 HEAVYSB11_pb2me6;52.92;kcal/mol

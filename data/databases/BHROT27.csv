@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 BHROT27_ethane_st + 1 BHROT27_ethane_ecl;2.73;kcal/mol
 2;-1 BHROT27_tmethane_60 + 1 BHROT27_tmethane_0;7.01;kcal/mol
 3;-1 BHROT27_tmethane_60 + 1 BHROT27_tmethane_120;3.46;kcal/mol

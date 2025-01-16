@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 HEAVY28_bih3_2 + 2 HEAVY28_bih3;1.16;kcal/mol
 2;-1 HEAVY28_bih3_h2o + 1 HEAVY28_bih3 + 1 HEAVY28_h2o;2.49;kcal/mol
 3;-1 HEAVY28_bih3_h2s + 1 HEAVY28_bih3 + 1 HEAVY28_h2s;1.36;kcal/mol

@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 PArel_A0 + 1 PArel_A1;1.61;kcal/mol
 2;-1 PArel_A0 + 1 PArel_A2;8.50;kcal/mol
 3;-1 PArel_T1 + 1 PArel_T0;2.94;kcal/mol

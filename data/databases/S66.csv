@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;1 S66_01A + 1 S66_01B + -1 S66_01;4.92;kcal/mol
 2;1 S66_02A + 1 S66_02B + -1 S66_02;5.59;kcal/mol
 3;1 S66_03A + 1 S66_03B + -1 S66_03;6.91;kcal/mol

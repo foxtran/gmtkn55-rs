@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 BUT14DIOL_B1 + 1 BUT14DIOL_B2;0.15;kcal/mol
 2;-1 BUT14DIOL_B1 + 1 BUT14DIOL_B3;0.30;kcal/mol
 3;-1 BUT14DIOL_B1 + 1 BUT14DIOL_B4;1.31;kcal/mol

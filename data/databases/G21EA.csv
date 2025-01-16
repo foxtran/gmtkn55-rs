@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;1 G21EA_EA_c + -1 G21EA_EA_c-;29.2;kcal/mol
 2;1 G21EA_EA_o + -1 G21EA_EA_o-;33.7;kcal/mol
 3;1 G21EA_EA_f + -1 G21EA_EA_f-;78.4;kcal/mol

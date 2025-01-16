@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;1 PA26_p2 + -1 PA26_p2p;167.2;kcal/mol
 2;1 PA26_p4 + -1 PA26_p4p;192.9;kcal/mol
 3;1 PA26_p6 + -1 PA26_p6p;209.2;kcal/mol

@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 WATER27_H2O2 + 2 WATER27_H2O;5.01;kcal/mol
 2;-1 WATER27_H2O3 + 3 WATER27_H2O;15.8;kcal/mol
 3;-1 WATER27_H2O4 + 4 WATER27_H2O;27.4;kcal/mol

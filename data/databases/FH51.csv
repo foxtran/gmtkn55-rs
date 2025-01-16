@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 FH51_C6H12O + -2 FH51_H2O2 + 1 FH51_ethyl-g-butyrolactone + 3 FH51_H2O;-150.81;kcal/mol
 2;-1 FH51_C4H9NH2 + -3 FH51_H2O2 + 1 FH51_C4H9NO2 + 4 FH51_H2O;-144.38;kcal/mol
 3;-1 FH51_C4H9CHO + -1 FH51_H2O2 + 1 FH51_C4H9CO2H + 1 FH51_H2O;-89.35;kcal/mol

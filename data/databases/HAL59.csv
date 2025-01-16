@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 HAL59_PCH_PhBr + 1 HAL59_PCH + 1 HAL59_PhBr;0.85;kcal/mol
 2;-1 HAL59_NCH_PhBr + 1 HAL59_NCH + 1 HAL59_PhBr;1.15;kcal/mol
 3;-1 HAL59_NH3_PhBr + 1 HAL59_NH3 + 1 HAL59_PhBr;2.02;kcal/mol

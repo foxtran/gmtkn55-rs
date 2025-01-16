@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;1 SIE4x4_h + -1 SIE4x4_h2+_1.0;64.4;kcal/mol
 2;1 SIE4x4_h + -1 SIE4x4_h2+_1.25;58.9;kcal/mol
 3;1 SIE4x4_h + -1 SIE4x4_h2+_1.5;48.7;kcal/mol

@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 PCONF21_99 + 1 PCONF21_444;0.02;kcal/mol
 2;-1 PCONF21_99 + 1 PCONF21_357;1.01;kcal/mol
 3;-1 PCONF21_99 + 1 PCONF21_366;0.70;kcal/mol

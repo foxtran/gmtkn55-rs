@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;5 BSR36_c2h6 + -1 BSR36_h1 + -4 BSR36_ch4;9.54;kcal/mol
 2;5 BSR36_c2h6 + -1 BSR36_h2 + -4 BSR36_ch4;9.50;kcal/mol
 3;5 BSR36_c2h6 + -1 BSR36_h3 + -4 BSR36_ch4;11.09;kcal/mol

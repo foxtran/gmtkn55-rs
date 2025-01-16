@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 BHPERI_Cyclobutene + 1 BHPERI_TS1;35.3;kcal/mol
 2;-1 BHPERI_cis-1,3,5-Hexatriene + 1 BHPERI_TS2;30.8;kcal/mol
 3;-1 BHPERI_ortho-xylylene + 1 BHPERI_TS3;28.1;kcal/mol

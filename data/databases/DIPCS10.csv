@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 DIPCS10_c4h4 + 1 DIPCS10_c4h4_2+;529.2;kcal/mol
 2;-1 DIPCS10_c2h6 + 1 DIPCS10_c2h6_2+;667.1;kcal/mol
 3;-1 DIPCS10_c2h4 + 1 DIPCS10_c2h4_2+;655.8;kcal/mol

@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;1 IDISP_antdimer + -2 IDISP_ant;-9.15;kcal/mol
 2;2 IDISP_pxylene + -1 IDISP_pc22 + -2 IDISP_h2;-60.28;kcal/mol
 3;1 IDISP_octane1 + -1 IDISP_octane2;-1.21;kcal/mol

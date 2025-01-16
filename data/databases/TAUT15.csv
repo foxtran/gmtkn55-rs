@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 TAUT15_1a + 1 TAUT15_1b;4.30;kcal/mol
 2;-1 TAUT15_2a + 1 TAUT15_2b;6.56;kcal/mol
 3;-1 TAUT15_3a + 1 TAUT15_3b;-5.44;kcal/mol

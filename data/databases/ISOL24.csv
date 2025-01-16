@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 ISOL24_i1e + 1 ISOL24_i1p;71.01;kcal/mol
 2;-1 ISOL24_i2e + 1 ISOL24_i2p;38.50;kcal/mol
 3;-1 ISOL24_i3e + 1 ISOL24_i3p;10.69;kcal/mol

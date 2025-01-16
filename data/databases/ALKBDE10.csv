@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 ALKBDE10_bef + 1 ALKBDE10_be + 1 ALKBDE10_f;138.7;kcal/mol
 2;-1 ALKBDE10_beo + 1 ALKBDE10_be + 1 ALKBDE10_o;106.6;kcal/mol
 3;-1 ALKBDE10_cao + 1 ALKBDE10_ca + 1 ALKBDE10_o;96.2;kcal/mol

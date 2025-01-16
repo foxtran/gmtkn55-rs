@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 G21IP_h;314.9;kcal/mol
 2;1 G21IP_li+ + -1 G21IP_li;123.3;kcal/mol
 3;1 G21IP_be+ + -1 G21IP_be;214.9;kcal/mol

@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 BHDIV10_ed1 + 1 BHDIV10_ts1;25.65;kcal/mol
 2;-1 BHDIV10_ed2 + 1 BHDIV10_ts2;56.90;kcal/mol
 3;-1 BHDIV10_ed3 + 1 BHDIV10_ts3;36.53;kcal/mol

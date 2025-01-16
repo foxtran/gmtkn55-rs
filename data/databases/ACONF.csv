@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 ACONF_B_T + 1 ACONF_B_G;0.598;kcal/mol
 2;-1 ACONF_P_TT + 1 ACONF_P_TG;0.614;kcal/mol
 3;-1 ACONF_P_TT + 1 ACONF_P_GG;0.961;kcal/mol

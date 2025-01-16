@@ -1,3 +1,4 @@
+ReactionName;Reaction;ReferenceValue;Unit
 1;-1 MCONF_1 + 1 MCONF_2;0.39;kcal/mol
 2;-1 MCONF_1 + 1 MCONF_3;1.74;kcal/mol
 3;-1 MCONF_1 + 1 MCONF_4;1.16;kcal/mol
