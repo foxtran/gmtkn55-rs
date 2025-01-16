@@ -1,0 +1,10 @@
+1;-1 ALKBDE10_bef + 1 ALKBDE10_be + 1 ALKBDE10_f;138.7;kcal/mol
+2;-1 ALKBDE10_beo + 1 ALKBDE10_be + 1 ALKBDE10_o;106.6;kcal/mol
+3;-1 ALKBDE10_cao + 1 ALKBDE10_ca + 1 ALKBDE10_o;96.2;kcal/mol
+4;-1 ALKBDE10_hf + 1 ALKBDE10_h + 1 ALKBDE10_f;142.1;kcal/mol
+5;-1 ALKBDE10_kf + 1 ALKBDE10_k + 1 ALKBDE10_f;117.5;kcal/mol
+6;-1 ALKBDE10_lif + 1 ALKBDE10_li + 1 ALKBDE10_f;139.2;kcal/mol
+7;-1 ALKBDE10_lio + 1 ALKBDE10_li + 1 ALKBDE10_o;82.5;kcal/mol
+8;-1 ALKBDE10_mgo + 1 ALKBDE10_mg + 1 ALKBDE10_o;62.2;kcal/mol
+9;-1 ALKBDE10_mgs + 1 ALKBDE10_mg + 1 ALKBDE10_s;56.7;kcal/mol
+10;-1 ALKBDE10_nao + 1 ALKBDE10_na + 1 ALKBDE10_o;65.2;kcal/mol

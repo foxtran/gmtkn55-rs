@@ -1,0 +1,51 @@
+1;-1 FH51_C6H12O + -2 FH51_H2O2 + 1 FH51_ethyl-g-butyrolactone + 3 FH51_H2O;-150.81;kcal/mol
+2;-1 FH51_C4H9NH2 + -3 FH51_H2O2 + 1 FH51_C4H9NO2 + 4 FH51_H2O;-144.38;kcal/mol
+3;-1 FH51_C4H9CHO + -1 FH51_H2O2 + 1 FH51_C4H9CO2H + 1 FH51_H2O;-89.35;kcal/mol
+4;-1 FH51_C4H9SO2H + -1 FH51_H2O2 + 1 FH51_C4H9SO3H + 1 FH51_H2O;-82.55;kcal/mol
+5;-1 FH51_trans-2-pentene + -1 FH51_H2O2 + 1 FH51_pentanediol;-78.51;kcal/mol
+6;-1 FH51_toluene + -3 FH51_H2 + 1 FH51_methylcyclohexane;-66.96;kcal/mol
+7;-1 FH51_pentanol + -1 FH51_H2O2 + 1 FH51_C4H9CHO + 2 FH51_H2O;-63.89;kcal/mol
+8;-1 FH51_C2H5O_2 + 1 FH51_C2H4OH_2;-58.53;kcal/mol
+9;-1 FH51_3-hexene + -1 FH51_H2O2 + 1 FH51_diethyloxirane + 1 FH51_H2O;-56.64;kcal/mol
+10;-1 FH51_S_C2H5_2 + -1 FH51_H2O2 + 1 FH51_OS_C2H5_2 + 1 FH51_H2O;-52.85;kcal/mol
+11;-1 FH51_ax-methylcyclohexene + 1 FH51_eq-methylcyclohexene;-52.60;kcal/mol
+12;-1 FH51_hexyne + -1 FH51_H2 + 1 FH51_1-hexene;-46.72;kcal/mol
+13;-1 FH51_2-pentyne + -1 FH51_H2 + 1 FH51_trans-2-pentene;-44.82;kcal/mol
+14;-1 FH51_2-pentyne + -1 FH51_H2 + 1 FH51_cis-2-pentene;-43.67;kcal/mol
+15;-1 FH51_2-pentyne + -1 FH51_HCN + 1 FH51_C2H5CCNCHCH3;-42.89;kcal/mol
+16;-1 FH51_1-hexene + -1 FH51_H2 + 1 FH51_n-hexane;-37.08;kcal/mol
+17;-1 FH51_1-pentyne + -1 FH51_H2O + 1 FH51_C4H9CHO;-34.93;kcal/mol
+18;-2 FH51_C3H7NH2 + -1 FH51_COCl2 + 1 FH51_CO_2NHC3H7_2 + 2 FH51_HCl;-32.47;kcal/mol
+19;-1 FH51_eq-methylcyclohexene + -1 FH51_H2 + 1 FH51_methylcyclohexane;-32.10;kcal/mol
+20;-1 FH51_trans-2-pentene + -1 FH51_Cl2 + 1 FH51_C2H5CClCHCH3 + 1 FH51_HCl;-31.22;kcal/mol
+21;-1 FH51_2-pentyne + -1 FH51_HCl + 1 FH51_C2H5CClCHCH3;-29.98;kcal/mol
+22;-1 FH51_1-pentene + -1 FH51_ethene + 1 FH51_Heptene;-25.84;kcal/mol
+23;-1 FH51_C4H9CHO + -1 FH51_H2 + 1 FH51_pentanol;-23.47;kcal/mol
+24;-1 FH51_dimethyloxirane + -1 FH51_H2O + 1 FH51_butanediol;-22.45;kcal/mol
+25;-1 FH51_methylpyridine + -1 FH51_H2 + 1 FH51_dimethylpyrrole;-20.27;kcal/mol
+26;-1 FH51_C4H9NCO + -1 FH51_NH3 + 1 FH51_C4H9NHCONH2;-19.72;kcal/mol
+27;-1 FH51_C3H7CN + -1 FH51_H2O + 1 FH51_C3H7CONH2;-19.34;kcal/mol
+28;-1 FH51_propylfuran + -1 FH51_H2S + 1 FH51_propylthiophene + 1 FH51_H2O;-19.45;kcal/mol
+29;-1 FH51_diethylamine + -1 FH51_CO + 1 FH51_HCON_C2H5_2;-17.39;kcal/mol
+30;-1 FH51_C3H7NCO + -1 FH51_H2O + 1 FH51_C3H7NH2 + 1 FH51_CO2;-16.98;kcal/mol
+31;-1 FH51_C3H7CO2C2H3 + 1 FH51_ethyl-g-butyrolactone;-16.14;kcal/mol
+32;-1 FH51_H2C-C5-CH2 + 1 FH51_heptatriyne;-14.30;kcal/mol
+33;-1 FH51_methylpyrazole + 1 FH51_methylimidazole;-13.14;kcal/mol
+34;-1 FH51_1-pentene + -1 FH51_H2O + 1 FH51_pentanol;-11.68;kcal/mol
+35;-1 FH51_methylfuran + -1 FH51_NH3 + 1 FH51_methylpyrrole + 1 FH51_H2O;-10.70;kcal/mol
+36;-1 FH51_C3H7CHCO + -1 FH51_H2CO + 1 FH51_propyloxirane + 1 FH51_CO;-9.39;kcal/mol
+37;-1 FH51_pentanol + -1 FH51_CO + 1 FH51_HCO2C5H11;-8.53;kcal/mol
+38;-1 FH51_C3H7S_2 + -1 FH51_H2 + 2 FH51_C3H7SH;-6.63;kcal/mol
+39;1 FH51_pentadiene + 1 FH51_ethene + -1 FH51_ax-methylcyclohexene;-6.65;kcal/mol
+40;-1 FH51_hexandione + 1 FH51_methyl-d-valerolactone;-6.45;kcal/mol
+41;-1 FH51_C2H5CO2H + -1 FH51_methanol + 1 FH51_C2H5CO2CH3 + 1 FH51_H2O;-5.11;kcal/mol
+42;-1 FH51_C4H9ONO + 1 FH51_C4H9NO2;-3.25;kcal/mol
+43;-1 FH51_n-hexane + 1 FH51_neo-hexane;-2.64;kcal/mol
+44;-1 FH51_methylcyclohexa-1,4-diene + 1 FH51_methylcyclohexa-1,3-diene;-2.48;kcal/mol
+45;-1 FH51_1-pentene + 1 FH51_trans-2-pentene;-2.11;kcal/mol
+46;-1 FH51_toluene + -1 FH51_H2 + 1 FH51_methylcyclohexa-1,3-diene;-1.47;kcal/mol
+47;-1 FH51_cis-2-pentene + 1 FH51_trans-2-pentene;-1.15;kcal/mol
+48;-1 FH51_3-methylpentane + 1 FH51_dimethylbutane;-0.86;kcal/mol
+49;-1 FH51_C2H5CO2H + -1 FH51_NH3 + 1 FH51_C2H5CONH2 + 1 FH51_H2O;-0.43;kcal/mol
+50;-1 FH51_n-nonane + 1 FH51_tetramethylpentane;-0.41;kcal/mol
+51;-1 FH51_C3H7CO2H + -1 FH51_NH3 + 1 FH51_C3H7CONH2 + 1 FH51_H2O;-0.18;kcal/mol

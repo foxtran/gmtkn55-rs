@@ -1,0 +1,11 @@
+1;2 HEAVYSB11_geh3 + -1 HEAVYSB11_ge2h6;73.82;kcal/mol
+2;2 HEAVYSB11_snme3 + -1 HEAVYSB11_sn2me6;61.74;kcal/mol
+3;2 HEAVYSB11_pbme3 + -1 HEAVYSB11_pb2me6;52.92;kcal/mol
+4;2 HEAVYSB11_sh + -1 HEAVYSB11_h2s2;67.85;kcal/mol
+5;2 HEAVYSB11_seh + -1 HEAVYSB11_h2se2;58.37;kcal/mol
+6;2 HEAVYSB11_teme + -1 HEAVYSB11_te2me2;52.91;kcal/mol
+7;2 HEAVYSB11_pme2 + -1 HEAVYSB11_p2me4;61.85;kcal/mol
+8;2 HEAVYSB11_asme2 + -1 HEAVYSB11_as2me4;52.18;kcal/mol
+9;2 HEAVYSB11_sbme2 + -1 HEAVYSB11_sb2me4;43.79;kcal/mol
+10;2 HEAVYSB11_cl + -1 HEAVYSB11_cl2;59.65;kcal/mol
+11;2 HEAVYSB11_br + -1 HEAVYSB11_br2;53.17;kcal/mol

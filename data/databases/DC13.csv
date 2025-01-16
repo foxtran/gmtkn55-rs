@@ -1,0 +1,13 @@
+1;1 DC13_ISO_E36 + -1 DC13_ISO_P36;-1.0;kcal/mol
+2;-1 DC13_c20cage + 1 DC13_c20bowl;-7.7;kcal/mol
+3;1 DC13_heptatriyne + -1 DC13_heptahexaene;-15.2;kcal/mol
+4;-2 DC13_tmethen + 1 DC13_omcb;-18.8;kcal/mol
+5;1 DC13_ISO_E35 + -1 DC13_ISO_P35;-22.9;kcal/mol
+6;-1 DC13_carbooxo2 + 1 DC13_carbooxo1;-25.7;kcal/mol
+7;-1 DC13_ethen + -1 DC13_ch2n2 + 1 DC13_13dip;-38.9;kcal/mol
+8;1 DC13_be4 + -4 DC13_be;-92.0;kcal/mol
+9;-4 DC13_s2 + 1 DC13_s8;-106.0;kcal/mol
+10;-1 DC13_ISO_C8H8_1 + 1 DC13_ISO_C8H8_41;109.92;kcal/mol
+11;-1 DC13_o3 + -1 DC13_c2h2 + 1 DC13_o3_c2h2_add;-65.3;kcal/mol
+12;-1 DC13_o3 + -1 DC13_c2h4 + 1 DC13_o3_c2h4_add;-58.7;kcal/mol
+13;-1 DC13_C6Cl6 + -6 DC13_HCL + 1 DC13_C6H6 + 6 DC13_CL2;152.6;kcal/mol

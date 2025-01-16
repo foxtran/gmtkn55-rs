@@ -1,0 +1,18 @@
+1;-1 RG18_ne2 + 2 RG18_ne;0.08;kcal/mol
+2;-1 RG18_ar2 + 2 RG18_ar;0.27;kcal/mol
+3;-1 RG18_kr2 + 2 RG18_kr;0.40;kcal/mol
+4;-1 RG18_ne3 + 3 RG18_ne;0.27;kcal/mol
+5;-1 RG18_ar3 + 3 RG18_ar;0.77;kcal/mol
+6;-1 RG18_kr3 + 3 RG18_kr;1.18;kcal/mol
+7;-1 RG18_ne4 + 4 RG18_ne;0.54;kcal/mol
+8;-1 RG18_ar4 + 4 RG18_ar;1.51;kcal/mol
+9;-1 RG18_ne6 + 6 RG18_ne;1.13;kcal/mol
+10;-1 RG18_hfNe + 1 RG18_ne + 1 RG18_hf;0.23;kcal/mol
+11;-1 RG18_hfAr + 1 RG18_ar + 1 RG18_hf;0.59;kcal/mol
+12;-1 RG18_hfKr + 1 RG18_kr + 1 RG18_hf;0.72;kcal/mol
+13;-1 RG18_c2h2Ne + 1 RG18_ne + 1 RG18_c2h2;0.12;kcal/mol
+14;-1 RG18_c2h2Ar + 1 RG18_ar + 1 RG18_c2h2;0.33;kcal/mol
+15;-1 RG18_c2h6Ne + 1 RG18_ne + 1 RG18_c2h6;0.24;kcal/mol
+16;-1 RG18_c2h6Ar + 1 RG18_ar + 1 RG18_c2h6;0.54;kcal/mol
+17;-1 RG18_bzNe + 1 RG18_ne + 1 RG18_bz;0.40;kcal/mol
+18;-1 RG18_bzAr + 1 RG18_ar + 1 RG18_bz;1.12;kcal/mol

@@ -1,0 +1,15 @@
+1;-1 ACONF_B_T + 1 ACONF_B_G;0.598;kcal/mol
+2;-1 ACONF_P_TT + 1 ACONF_P_TG;0.614;kcal/mol
+3;-1 ACONF_P_TT + 1 ACONF_P_GG;0.961;kcal/mol
+4;-1 ACONF_P_TT + 1 ACONF_P_GX;2.813;kcal/mol
+5;-1 ACONF_H_ttt + 1 ACONF_H_gtt;0.595;kcal/mol
+6;-1 ACONF_H_ttt + 1 ACONF_H_tgt;0.604;kcal/mol
+7;-1 ACONF_H_ttt + 1 ACONF_H_tgg;0.934;kcal/mol
+8;-1 ACONF_H_ttt + 1 ACONF_H_gtg;1.178;kcal/mol
+9;-1 ACONF_H_ttt + 1 ACONF_H_g+t+g-;1.302;kcal/mol
+10;-1 ACONF_H_ttt + 1 ACONF_H_ggg;1.250;kcal/mol
+11;-1 ACONF_H_ttt + 1 ACONF_H_g+x-t+;2.632;kcal/mol
+12;-1 ACONF_H_ttt + 1 ACONF_H_t+g+x-;2.740;kcal/mol
+13;-1 ACONF_H_ttt + 1 ACONF_H_g+x-g-;3.283;kcal/mol
+14;-1 ACONF_H_ttt + 1 ACONF_H_x+g-g-;3.083;kcal/mol
+15;-1 ACONF_H_ttt + 1 ACONF_H_x+g-x+;4.925;kcal/mol

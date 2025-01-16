@@ -1,0 +1,12 @@
+1;-1 NBPRC_nh3 + -1 NBPRC_bh3 + 1 NBPRC_nh3-bh3;-32.1;kcal/mol
+2;-1 NBPRC_nh3-bh3 + 1 NBPRC_nh2-bh2 + 1 NBPRC_h2;-0.2;kcal/mol
+3;-1 NBPRC_nh2-bh2 + 1 NBPRC_nh-bh + 1 NBPRC_h2;37.6;kcal/mol
+4;-2 NBPRC_nh2-bh2 + 1 NBPRC_cbut;-19.5;kcal/mol
+5;-3 NBPRC_nh2-bh2 + 1 NBPRC_bz + 3 NBPRC_h2;-48.9;kcal/mol
+6;-3 NBPRC_nh2-bh2 + 1 NBPRC_ch;-46.1;kcal/mol
+7;1 NBPRC_BH3PH3 + -1 NBPRC_BH3 + -1 NBPRC_PH3;-25.2;kcal/mol
+8;1 NBPRC_K_H + -1 NBPRC_BH3PH3 + -1 NBPRC_H2;40.4;kcal/mol
+9;1 NBPRC_BF3PMe3 + -1 NBPRC_BF3 + -1 NBPRC_PMe3;-15.2;kcal/mol
+10;1 NBPRC_K_F + -1 NBPRC_BF3PMe3 + -1 NBPRC_H2;18.5;kcal/mol
+11;1 NBPRC_BCl3PMe3 + -1 NBPRC_BCl3 + -1 NBPRC_PMe3;-31.2;kcal/mol
+12;1 NBPRC_K_Cl + -1 NBPRC_BCl3PMe3 + -1 NBPRC_H2;17.6;kcal/mol

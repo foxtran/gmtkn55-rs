@@ -1,0 +1,25 @@
+1;-1 G2RC_118 + 1 G2RC_117 + 1 G2RC_13;-2.23;kcal/mol
+2;-1 G2RC_40 + -1 G2RC_1 + 1 G2RC_104;-2.26;kcal/mol
+3;-1 G2RC_113 + 1 G2RC_30 + 1 G2RC_8;-2.18;kcal/mol
+4;-1 G2RC_52 + -1 G2RC_1 + 2 G2RC_18;-4.10;kcal/mol
+5;-1 G2RC_30 + -1 G2RC_13 + 1 G2RC_40 + 1 G2RC_1;-7.10;kcal/mol
+6;-1 G2RC_128 + -1 G2RC_13 + 1 G2RC_126 + 1 G2RC_22;-10.70;kcal/mol
+7;-1 G2RC_100 + -1 G2RC_13 + 1 G2RC_106;-19.47;kcal/mol
+8;-1 G2RC_25 + -1 G2RC_14 + 1 G2RC_121;-26.97;kcal/mol
+9;-1 G2RC_39 + -1 G2RC_45 + 2 G2RC_51;-27.30;kcal/mol
+10;-1 G2RC_58 + -1 G2RC_59 + 1 G2RC_57 + 1 G2RC_60;-27.15;kcal/mol
+11;-1 G2RC_67 + -1 G2RC_61 + 1 G2RC_66 + 1 G2RC_62;-24.89;kcal/mol
+12;-1 G2RC_32 + -1 G2RC_1 + 1 G2RC_33;-29.46;kcal/mol
+13;-1 G2RC_25 + -1 G2RC_26 + 1 G2RC_88;-32.71;kcal/mol
+14;-1 G2RC_47 + -3 G2RC_1 + 1 G2RC_18 + 1 G2RC_13;-36.32;kcal/mol
+15;-1 G2RC_34 + -3 G2RC_1 + 2 G2RC_11;-39.43;kcal/mol
+16;-1 G2RC_8 + -2 G2RC_45 + 1 G2RC_97 + 2 G2RC_22;-48.52;kcal/mol
+17;-1 G2RC_25 + -1 G2RC_1 + 1 G2RC_26;-49.20;kcal/mol
+18;-1 G2RC_56 + -3 G2RC_1 + 1 G2RC_21 + 2 G2RC_13;-61.67;kcal/mol
+19;-1 G2RC_30 + -3 G2RC_1 + 1 G2RC_13 + 1 G2RC_8;-65.15;kcal/mol
+20;-1 G2RC_73 + -1 G2RC_1 + 1 G2RC_39 + 1 G2RC_13;-68.90;kcal/mol
+21;-1 G2RC_68 + -1 G2RC_1 + 1 G2RC_34 + 1 G2RC_13;-81.21;kcal/mol
+22;-1 G2RC_26 + -1 G2RC_6 + 1 G2RC_82;-109.11;kcal/mol
+23;-1 G2RC_1 + -1 G2RC_39 + 2 G2RC_14;-135.40;kcal/mol
+24;-3 G2RC_25 + 1 G2RC_94;-154.04;kcal/mol
+25;-1 G2RC_23 + -1 G2RC_39 + 2 G2RC_24;-216.11;kcal/mol

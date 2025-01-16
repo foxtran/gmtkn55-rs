@@ -1,0 +1,18 @@
+1;-1 WCPT18_reac1 + 1 WCPT18_ts1;36.76;kcal/mol
+2;-1 WCPT18_reac2 + 1 WCPT18_ts2;36.21;kcal/mol
+3;-1 WCPT18_reac3 + 1 WCPT18_ts3;60.95;kcal/mol
+4;-1 WCPT18_reac4 + 1 WCPT18_ts4;47.52;kcal/mol
+5;-1 WCPT18_reac5 + 1 WCPT18_ts5;65.68;kcal/mol
+6;-1 WCPT18_reac6 + 1 WCPT18_ts6;81.24;kcal/mol
+7;-1 WCPT18_reac7 + 1 WCPT18_ts7;32.00;kcal/mol
+8;-1 WCPT18_reac8 + 1 WCPT18_ts8;28.97;kcal/mol
+9;-1 WCPT18_reac9 + 1 WCPT18_ts9;58.80;kcal/mol
+10;-1 WCPT18_reac1 + -1 WCPT18_h2o + 1 WCPT18_ts1h2o;5.40;kcal/mol
+11;-1 WCPT18_reac2 + -1 WCPT18_h2o + 1 WCPT18_ts2h2o;2.68;kcal/mol
+12;-1 WCPT18_reac3 + -1 WCPT18_h2o + 1 WCPT18_ts3h2o;28.78;kcal/mol
+13;-1 WCPT18_reac4 + -1 WCPT18_h2o + 1 WCPT18_ts4h2o;8.68;kcal/mol
+14;-1 WCPT18_reac5 + -1 WCPT18_h2o + 1 WCPT18_ts5h2o;33.89;kcal/mol
+15;-1 WCPT18_reac6 + -1 WCPT18_h2o + 1 WCPT18_ts6h2o;59.63;kcal/mol
+16;-1 WCPT18_reac7 + -1 WCPT18_h2o + 1 WCPT18_ts7h2o;5.83;kcal/mol
+17;-1 WCPT18_reac8 + -1 WCPT18_h2o + 1 WCPT18_ts8h2o;3.54;kcal/mol
+18;-1 WCPT18_reac9 + -1 WCPT18_h2o + 1 WCPT18_ts9h2o;33.22;kcal/mol

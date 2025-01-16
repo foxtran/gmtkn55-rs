@@ -1,0 +1,17 @@
+1;-1 SCONF_C1 + 1 SCONF_C2;0.86;kcal/mol
+2;-1 SCONF_C1 + 1 SCONF_C3;2.28;kcal/mol
+3;-1 SCONF_C1 + 1 SCONF_C4;3.08;kcal/mol
+4;-1 SCONF_C1 + 1 SCONF_C5;4.60;kcal/mol
+5;-1 SCONF_C1 + 1 SCONF_C6;4.87;kcal/mol
+6;-1 SCONF_C1 + 1 SCONF_C7;4.16;kcal/mol
+7;-1 SCONF_C1 + 1 SCONF_C8;4.38;kcal/mol
+8;-1 SCONF_C1 + 1 SCONF_C9;6.19;kcal/mol
+9;-1 SCONF_C1 + 1 SCONF_C10;6.18;kcal/mol
+10;-1 SCONF_C1 + 1 SCONF_C11;5.65;kcal/mol
+11;-1 SCONF_C1 + 1 SCONF_C12;5.59;kcal/mol
+12;-1 SCONF_C1 + 1 SCONF_C13;5.93;kcal/mol
+13;-1 SCONF_C1 + 1 SCONF_C14;6.31;kcal/mol
+14;-1 SCONF_C1 + 1 SCONF_C15;6.22;kcal/mol
+15;-1 SCONF_G1 + 1 SCONF_G2;0.20;kcal/mol
+16;-1 SCONF_G1 + 1 SCONF_G3;6.16;kcal/mol
+17;-1 SCONF_G1 + 1 SCONF_G4;5.54;kcal/mol

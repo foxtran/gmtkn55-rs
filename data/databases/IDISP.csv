@@ -1,0 +1,6 @@
+1;1 IDISP_antdimer + -2 IDISP_ant;-9.15;kcal/mol
+2;2 IDISP_pxylene + -1 IDISP_pc22 + -2 IDISP_h2;-60.28;kcal/mol
+3;1 IDISP_octane1 + -1 IDISP_octane2;-1.21;kcal/mol
+4;1 IDISP_undecan1 + -1 IDISP_undecan2;9.10;kcal/mol
+5;-1 IDISP_F14f + 1 IDISP_F14l;-3.64;kcal/mol
+6;-1 IDISP_F22f + 1 IDISP_F22l;-1.96;kcal/mol

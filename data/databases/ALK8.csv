@@ -1,0 +1,8 @@
+1;-1 ALK8_li8 + 4 ALK8_li2;86.47;kcal/mol
+2;-1 ALK8_na8 + 4 ALK8_na2;53.15;kcal/mol
+3;-1 ALK8_li4_me4 + 4 ALK8_li_me;131.13;kcal/mol
+4;-1 ALK8_li3_me + 1 ALK8_li_me + 1 ALK8_li2;34.51;kcal/mol
+5;-1 ALK8_li2_ch4 + 1 ALK8_li_me + 1 ALK8_li_h;47.42;kcal/mol
+6;-1 ALK8_li5_ch + 1 ALK8_li4_c + 1 ALK8_li_h;66.28;kcal/mol
+7;-1 ALK8_li2_ch2n_2 + 2 ALK8_li_ch2n;56.55;kcal/mol
+8;-1 ALK8_na+ + -1 ALK8_li_na_h2 + 1 ALK8_li+ + 1 ALK8_na2_h2;25.30;kcal/mol

@@ -1,0 +1,28 @@
+1;-1 HEAVY28_bih3_2 + 2 HEAVY28_bih3;1.16;kcal/mol
+2;-1 HEAVY28_bih3_h2o + 1 HEAVY28_bih3 + 1 HEAVY28_h2o;2.49;kcal/mol
+3;-1 HEAVY28_bih3_h2s + 1 HEAVY28_bih3 + 1 HEAVY28_h2s;1.36;kcal/mol
+4;-1 HEAVY28_bih3_hcl + 1 HEAVY28_bih3 + 1 HEAVY28_hcl;0.77;kcal/mol
+5;-1 HEAVY28_bih3_hbr + 1 HEAVY28_bih3 + 1 HEAVY28_hbr;0.98;kcal/mol
+6;-1 HEAVY28_bih3_hi + 1 HEAVY28_bih3 + 1 HEAVY28_hi;1.30;kcal/mol
+7;-1 HEAVY28_bih3_nh3 + 1 HEAVY28_bih3 + 1 HEAVY28_nh3;0.60;kcal/mol
+8;-1 HEAVY28_pbh4_2 + 2 HEAVY28_pbh4;1.25;kcal/mol
+9;-1 HEAVY28_pbh4_bih3 + 1 HEAVY28_pbh4 + 1 HEAVY28_bih3;0.55;kcal/mol
+10;-1 HEAVY28_pbh4_h2o + 1 HEAVY28_pbh4 + 1 HEAVY28_h2o;0.36;kcal/mol
+11;-1 HEAVY28_pbh4_hcl + 1 HEAVY28_pbh4 + 1 HEAVY28_hcl;0.75;kcal/mol
+12;-1 HEAVY28_pbh4_hbr + 1 HEAVY28_pbh4 + 1 HEAVY28_hbr;0.93;kcal/mol
+13;-1 HEAVY28_pbh4_hi + 1 HEAVY28_pbh4 + 1 HEAVY28_hi;1.18;kcal/mol
+14;-1 HEAVY28_pbh4_teh2 + 1 HEAVY28_pbh4 + 1 HEAVY28_teh2;0.65;kcal/mol
+15;-1 HEAVY28_sbh3_2 + 2 HEAVY28_sbh3;1.28;kcal/mol
+16;-1 HEAVY28_sbh3_h2o + 1 HEAVY28_sbh3 + 1 HEAVY28_h2o;1.57;kcal/mol
+17;-1 HEAVY28_sbh3_h2s + 1 HEAVY28_sbh3 + 1 HEAVY28_h2s;1.06;kcal/mol
+18;-1 HEAVY28_sbh3_hcl + 1 HEAVY28_sbh3 + 1 HEAVY28_hcl;2.02;kcal/mol
+19;-1 HEAVY28_sbh3_hbr + 1 HEAVY28_sbh3 + 1 HEAVY28_hbr;1.89;kcal/mol
+20;-1 HEAVY28_sbh3_hi + 1 HEAVY28_sbh3 + 1 HEAVY28_hi;1.49;kcal/mol
+21;-1 HEAVY28_sbh3_nh3 + 1 HEAVY28_sbh3 + 1 HEAVY28_nh3;2.84;kcal/mol
+22;-1 HEAVY28_teh2_2 + 2 HEAVY28_teh2;0.52;kcal/mol
+23;-1 HEAVY28_teh2_h2o + 1 HEAVY28_teh2 + 1 HEAVY28_h2o;0.68;kcal/mol
+24;-1 HEAVY28_teh2_h2s + 1 HEAVY28_teh2 + 1 HEAVY28_h2s;0.48;kcal/mol
+25;-1 HEAVY28_teh2_hcl + 1 HEAVY28_teh2 + 1 HEAVY28_hcl;1.23;kcal/mol
+26;-1 HEAVY28_teh2_hbr + 1 HEAVY28_teh2 + 1 HEAVY28_hbr;1.22;kcal/mol
+27;-1 HEAVY28_teh2_hi + 1 HEAVY28_teh2 + 1 HEAVY28_hi;0.80;kcal/mol
+28;-1 HEAVY28_teh2_nh3 + 1 HEAVY28_teh2 + 1 HEAVY28_nh3;3.35;kcal/mol

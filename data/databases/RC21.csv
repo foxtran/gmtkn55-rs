@@ -1,0 +1,21 @@
+1;-1 RC21_1e + 1 RC21_1p1 + 1 RC21_me;23.43;kcal/mol
+2;-1 RC21_1e + 1 RC21_1p2 + 1 RC21_1p3;26.66;kcal/mol
+3;-1 RC21_2e + 1 RC21_2p1 + 1 RC21_me;24.74;kcal/mol
+4;-1 RC21_2e + 1 RC21_2p2 + 1 RC21_2p3;59.44;kcal/mol
+5;-1 RC21_3e + 1 RC21_3p1 + 1 RC21_3p2;57.93;kcal/mol
+6;-1 RC21_3e + 1 RC21_3int1;36.56;kcal/mol
+7;-1 RC21_3e + 1 RC21_3int2;17.91;kcal/mol
+8;-1 RC21_3e + 1 RC21_3int3;16.80;kcal/mol
+9;-1 RC21_3e + 1 RC21_3p2 + 1 RC21_3p3;49.85;kcal/mol
+10;-1 RC21_4e + 1 RC21_4p + 1 RC21_me;45.16;kcal/mol
+11;-1 RC21_5e + 1 RC21_5p + 1 RC21_me;22.24;kcal/mol
+12;-1 RC21_6e + 1 RC21_6int;-6.72;kcal/mol
+13;-1 RC21_6e + 1 RC21_6p1 + 1 RC21_ethylene;21.21;kcal/mol
+14;-1 RC21_6e + 1 RC21_6p3 + 1 RC21_me;22.03;kcal/mol
+15;-1 RC21_6e + 1 RC21_1p2 + 1 RC21_pr;28.12;kcal/mol
+16;-1 RC21_7e + 1 RC21_7p1 + 1 RC21_7p2;-0.73;kcal/mol
+17;-1 RC21_7e + 1 RC21_7p3 + 1 RC21_7p4;50.66;kcal/mol
+18;-1 RC21_7e + 1 RC21_7p5 + 1 RC21_7p6;30.38;kcal/mol
+19;-1 RC21_8e + 1 RC21_8p1 + 1 RC21_ethylene;49.73;kcal/mol
+20;-1 RC21_9e + 1 RC21_9p1 + 1 RC21_9p2;32.81;kcal/mol
+21;-1 RC21_10e + 1 RC21_10p1 + 1 RC21_10p2;126.56;kcal/mol
