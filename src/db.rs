@@ -112,14 +112,14 @@ impl Database {
                 .sum();
             //todo!("Implement type conversion");
             if with_uncertainty.is_some() && with_uncertainty.unwrap() {
-                val = f64::min(
-                    f64::abs(dbrecord.reference_value - val - dbrecord.uncertainty),
-                    f64::abs(dbrecord.reference_value - val + dbrecord.uncertainty),
-                );
-                if val < dbrecord.uncertainty {
+                let diff = val - dbrecord.reference_value;
+                if f64::abs(diff) < dbrecord.uncertainty {
                     val = 0.0
-                };
-                panic!("WRONG IMPLEMENTATION");
+                } else if diff > 0.0 {
+                    val = diff - dbrecord.uncertainty;
+                } else {
+                    val = diff + dbrecord.uncertainty;
+                }
             } else {
                 val = val - dbrecord.reference_value;
             }
