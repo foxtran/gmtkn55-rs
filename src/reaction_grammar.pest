@@ -7,4 +7,4 @@ operation = _{ add | subtract | equal }
     subtract = { "-" }
     equal    = { PUSH("=") }
 
-reaction = { SOI ~ (" "+)? ~ factor_compound ~ " "+ ~ (operation ~ " "+ ~ factor_compound ~ (" "+ | EOI))* ~ EOI }
+reaction = { SOI ~ (" "+)? ~ factor_compound ~ (" "+ ~ operation ~ " "+ ~ factor_compound)* ~ EOI }
