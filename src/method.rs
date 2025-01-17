@@ -6,7 +6,7 @@ pub struct MethodRecord {
     pub geometry: String,
     #[serde(rename = "Energy")]
     pub energy: f64,
-    #[serde(rename = "Uncertainty", default = "default_unit")]
+    #[serde(rename = "Unit", default = "default_unit")]
     pub unit: String,
 }
 
@@ -36,5 +36,18 @@ impl Method {
             filepath: dbfile.clone(),
             data: data,
         })
+    }
+
+    pub fn get_energy(&self, geometry: &String) -> f64 {
+        let data = self
+            .data
+            .iter()
+            .filter(|x| x.geometry.as_str() == geometry.as_str())
+            .map(|x| (x.energy, &x.unit))
+            .collect::<Vec<(f64, &String)>>();
+        if data.len() != 1 {
+            panic!("Unknown geometry '{}'", geometry);
+        }
+        data[0].0 * 627.5095
     }
 }
