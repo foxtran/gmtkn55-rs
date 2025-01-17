@@ -1,4 +1,6 @@
+mod db;
 mod method;
+mod reaction;
 
 use clap::Parser;
 use method::Method;
@@ -42,6 +44,18 @@ fn main() {
         panic!("NOT IMPLEMENTED");
     }
     if args.dbfile.is_some() {
-        panic!("NOT IMPLEMENTED");
+        let db = db::Database::new(
+            &args.dbfile.clone().unwrap(),
+            &args.dbfile.unwrap().into_os_string().into_string().unwrap(),
+            &String::from(""),
+            &String::from(""),
+            &String::from(""),
+        )
+        .expect("DB's data is not provided properly!");
+        let res = db.compute_stat(
+            move |key: &String| method_data.get_energy(key),
+            Some(args.with_uncertainty),
+        );
+        res.iter().for_each(|x| println!("{:<4} {:5.2}", x.0, x.1));
     }
 }
