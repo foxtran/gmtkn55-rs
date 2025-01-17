@@ -119,8 +119,9 @@ impl Database {
                 if val < dbrecord.uncertainty {
                     val = 0.0
                 };
+                panic!("WRONG IMPLEMENTATION");
             } else {
-                val = f64::abs(dbrecord.reference_value - val);
+                val = val - dbrecord.reference_value;
             }
             results.push((dbrecord.data_id, val));
         }
@@ -135,19 +136,23 @@ impl Database {
         let mut results: Vec<(String, f64)> = vec![];
         let data = self.compute_diff(compute, with_uncertainty);
         results.push((
-            String::from("MAE"),
+            String::from("MD"),
             data.iter().map(|x| x.1).sum::<f64>() / data.len() as f64,
         ));
         results.push((
-            String::from("MAX"),
-            data.iter()
-                .map(|x| x.1)
-                .max_by(|a, b| a.partial_cmp(b).unwrap())
-                .unwrap_or(0.0),
+            String::from("MAE"),
+            data.iter().map(|x| f64::abs(x.1)).sum::<f64>() / data.len() as f64,
         ));
         results.push((
             String::from("RMSE"),
             f64::sqrt(data.iter().map(|x| x.1 * x.1).sum::<f64>() / data.len() as f64),
+        ));
+        results.push((
+            String::from("MAX"),
+            data.iter()
+                .map(|x| f64::abs(x.1))
+                .max_by(|a, b| a.partial_cmp(b).unwrap())
+                .unwrap_or(0.0),
         ));
         return results;
     }
