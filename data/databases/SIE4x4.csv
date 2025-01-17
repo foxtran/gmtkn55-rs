@@ -1,17 +1,17 @@
 ReactionName;Reaction;ReferenceValue;Unit
-1;1 SIE4x4_h + -1 SIE4x4_h2+_1.0;64.4;kcal/mol
-2;1 SIE4x4_h + -1 SIE4x4_h2+_1.25;58.9;kcal/mol
-3;1 SIE4x4_h + -1 SIE4x4_h2+_1.5;48.7;kcal/mol
-4;1 SIE4x4_h + -1 SIE4x4_h2+_1.75;38.3;kcal/mol
-5;1 SIE4x4_he + 1 SIE4x4_he+ + -1 SIE4x4_he2+_1.0;56.9;kcal/mol
-6;1 SIE4x4_he + 1 SIE4x4_he+ + -1 SIE4x4_he2+_1.25;46.9;kcal/mol
-7;1 SIE4x4_he + 1 SIE4x4_he+ + -1 SIE4x4_he2+_1.5;31.3;kcal/mol
-8;1 SIE4x4_he + 1 SIE4x4_he+ + -1 SIE4x4_he2+_1.75;19.1;kcal/mol
-9;1 SIE4x4_nh3 + 1 SIE4x4_nh3+ + -1 SIE4x4_nh32+_1.0;35.9;kcal/mol
-10;1 SIE4x4_nh3 + 1 SIE4x4_nh3+ + -1 SIE4x4_nh32+_1.25;25.9;kcal/mol
-11;1 SIE4x4_nh3 + 1 SIE4x4_nh3+ + -1 SIE4x4_nh32+_1.5;13.4;kcal/mol
-12;1 SIE4x4_nh3 + 1 SIE4x4_nh3+ + -1 SIE4x4_nh32+_1.75;4.9;kcal/mol
-13;1 SIE4x4_h2o + 1 SIE4x4_h2o+ + -1 SIE4x4_h2o2+_1.0;39.7;kcal/mol
-14;1 SIE4x4_h2o + 1 SIE4x4_h2o+ + -1 SIE4x4_h2o2+_1.25;29.1;kcal/mol
-15;1 SIE4x4_h2o + 1 SIE4x4_h2o+ + -1 SIE4x4_h2o2+_1.5;16.9;kcal/mol
-16;1 SIE4x4_h2o + 1 SIE4x4_h2o+ + -1 SIE4x4_h2o2+_1.75;9.3;kcal/mol
+1;1 SIE4x4_h + -1 SIE4x4_h2+_1_0;64.4;kcal/mol
+2;1 SIE4x4_h + -1 SIE4x4_h2+_1_25;58.9;kcal/mol
+3;1 SIE4x4_h + -1 SIE4x4_h2+_1_5;48.7;kcal/mol
+4;1 SIE4x4_h + -1 SIE4x4_h2+_1_75;38.3;kcal/mol
+5;1 SIE4x4_he + 1 SIE4x4_he+ + -1 SIE4x4_he2+_1_0;56.9;kcal/mol
+6;1 SIE4x4_he + 1 SIE4x4_he+ + -1 SIE4x4_he2+_1_25;46.9;kcal/mol
+7;1 SIE4x4_he + 1 SIE4x4_he+ + -1 SIE4x4_he2+_1_5;31.3;kcal/mol
+8;1 SIE4x4_he + 1 SIE4x4_he+ + -1 SIE4x4_he2+_1_75;19.1;kcal/mol
+9;1 SIE4x4_nh3 + 1 SIE4x4_nh3+ + -1 SIE4x4_nh32+_1_0;35.9;kcal/mol
+10;1 SIE4x4_nh3 + 1 SIE4x4_nh3+ + -1 SIE4x4_nh32+_1_25;25.9;kcal/mol
+11;1 SIE4x4_nh3 + 1 SIE4x4_nh3+ + -1 SIE4x4_nh32+_1_5;13.4;kcal/mol
+12;1 SIE4x4_nh3 + 1 SIE4x4_nh3+ + -1 SIE4x4_nh32+_1_75;4.9;kcal/mol
+13;1 SIE4x4_h2o + 1 SIE4x4_h2o+ + -1 SIE4x4_h2o2+_1_0;39.7;kcal/mol
+14;1 SIE4x4_h2o + 1 SIE4x4_h2o+ + -1 SIE4x4_h2o2+_1_25;29.1;kcal/mol
+15;1 SIE4x4_h2o + 1 SIE4x4_h2o+ + -1 SIE4x4_h2o2+_1_5;16.9;kcal/mol
+16;1 SIE4x4_h2o + 1 SIE4x4_h2o+ + -1 SIE4x4_h2o2+_1_75;9.3;kcal/mol

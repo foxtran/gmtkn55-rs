@@ -1,5 +1,5 @@
 factor = @{ ("+" | "-")? ~ ASCII_DIGIT+ ~("." ~ ASCII_DIGIT+)? }
-compound = @{ ASCII_ALPHANUMERIC ~ ( "_" | "-" | "+" | "." | ASCII_ALPHANUMERIC )* }
+compound = @{ ASCII_ALPHANUMERIC ~ ( "_" | "-" | "+" | ASCII_ALPHANUMERIC )* }
 factor_compound = { (factor ~ " "+)? ~ compound }
 
 operation = _{ add | subtract | equal }
