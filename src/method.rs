@@ -1,0 +1,40 @@
+use serde::Deserialize;
+
+#[derive(Debug, Deserialize)]
+pub struct MethodRecord {
+    #[serde(rename = "Structure")]
+    pub geometry: String,
+    #[serde(rename = "Energy")]
+    pub energy: f64,
+    #[serde(rename = "Uncertainty", default = "default_unit")]
+    pub unit: String,
+}
+
+fn default_unit() -> String {
+    String::from("Hartree")
+}
+
+pub struct Method {
+    pub filepath: std::path::PathBuf,
+    pub data: Vec<MethodRecord>,
+}
+
+impl Method {
+    pub fn new(dbfile: &std::path::PathBuf) -> Result<Method, csv::Error> {
+        let mut reader = csv::ReaderBuilder::new()
+            .delimiter(b';')
+            .comment(Some(b'#'))
+            .has_headers(true)
+            .from_path(&dbfile)?;
+
+        let mut data: Vec<MethodRecord> = vec![];
+        for result in reader.deserialize() {
+            let dbrecord: MethodRecord = result?;
+            data.push(dbrecord);
+        }
+        Ok(Method {
+            filepath: dbfile.clone(),
+            data: data,
+        })
+    }
+}

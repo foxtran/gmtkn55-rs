@@ -1,4 +1,7 @@
+mod method;
+
 use clap::Parser;
+use method::Method;
 
 /// Evaluate datasets with given reactions
 #[derive(Parser)]
@@ -26,6 +29,14 @@ fn main() {
     if args.compute.is_none() && args.dbfile.is_none() {
         println!("Nothing to compute! Please, provide --compute or --dbfile option!");
         return ();
+    }
+    let method_data: Method =
+        Method::new(&args.data).expect("Method's data is not provided properly!");
+    if method_data.data.len() == 0 {
+        panic!(
+            "File '{}' contains nothing!",
+            method_data.filepath.display()
+        );
     }
     if args.compute.is_some() {
         panic!("NOT IMPLEMENTED");
