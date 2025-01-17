@@ -1,7 +1,7 @@
 #![allow(dead_code)]
 
-use serde::Deserialize;
 use crate::reaction::Reaction;
+use serde::Deserialize;
 
 #[derive(Deserialize)]
 pub struct DBRecord {
@@ -42,10 +42,10 @@ pub struct Database {
 impl Database {
     pub fn new(
         dbfile: &std::path::Path,
-        name: String,
-        description: String,
-        doi: String,
-        reference_method: String,
+        name: &String,
+        description: &String,
+        doi: &String,
+        reference_method: &String,
     ) -> Result<Self, csv::Error> {
         let mut reader = csv::ReaderBuilder::new()
             .delimiter(b';')
@@ -60,10 +60,10 @@ impl Database {
             data.push(dbrecord);
         }
         return Ok(Database {
-            name: name,
-            description: description,
-            doi: doi,
-            reference_method: reference_method,
+            name: name.clone(),
+            description: description.clone(),
+            doi: doi.clone(),
+            reference_method: reference_method.clone(),
             data: data,
         });
     }
