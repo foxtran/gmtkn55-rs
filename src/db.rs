@@ -68,7 +68,7 @@ impl Database {
         });
     }
 
-    pub fn compute(self, compute: fn(compound: &String) -> f64) -> Vec<(String, f64)> {
+    pub fn compute<CB: Fn(&String) -> f64>(self, compute: CB) -> Vec<(String, f64)> {
         let mut results: Vec<(String, f64)> = vec![];
         for dbrecord in self.data {
             let val: f64 = dbrecord
@@ -82,7 +82,7 @@ impl Database {
         return results;
     }
 
-    pub fn update(&mut self, compute: fn(compound: &String) -> f64, uncertainty: Option<f64>) {
+    pub fn update(&mut self, compute: fn(&String) -> f64, uncertainty: Option<f64>) {
         //todo!("Implement type conversion");
         self.data.iter_mut().for_each(|dbrecord| {
             dbrecord.reference_value = dbrecord
@@ -97,9 +97,9 @@ impl Database {
         });
     }
 
-    pub fn compute_diff(
+    pub fn compute_diff<CB: Fn(&String) -> f64>(
         self,
-        compute: fn(compound: &String) -> f64,
+        compute: CB,
         with_uncertainty: Option<bool>,
     ) -> Vec<(String, f64)> {
         let mut results: Vec<(String, f64)> = vec![];
@@ -127,9 +127,9 @@ impl Database {
         return results;
     }
 
-    pub fn compute_stat(
+    pub fn compute_stat<CB: Fn(&String) -> f64>(
         self,
-        compute: fn(compound: &String) -> f64,
+        compute: CB,
         with_uncertainty: Option<bool>,
     ) -> Vec<(String, f64)> {
         let mut results: Vec<(String, f64)> = vec![];
