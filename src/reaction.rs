@@ -45,7 +45,7 @@ impl Reaction {
                                             factor = in_in_pair.as_str().parse().unwrap();
                                         }
                                         Rule::compound => {
-                                            compound = in_in_pair.to_string();
+                                            compound = in_in_pair.as_str().to_string();
                                         }
                                         Rule::EOI
                                         | Rule::reaction
