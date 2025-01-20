@@ -1,13 +1,13 @@
 ReactionName;Reaction;ReferenceValue;Unit
 1;-1 BHPERI_Cyclobutene + 1 BHPERI_TS1;35.3;kcal/mol
-2;-1 BHPERI_cis-1,3,5-Hexatriene + 1 BHPERI_TS2;30.8;kcal/mol
+2;-1 BHPERI_cis-1-3-5-Hexatriene + 1 BHPERI_TS2;30.8;kcal/mol
 3;-1 BHPERI_ortho-xylylene + 1 BHPERI_TS3;28.1;kcal/mol
-4;-1 BHPERI_1,3-Pentadiene + 1 BHPERI_TS4;39.7;kcal/mol
-5;-1 BHPERI_1,3-Cyclopentadiene + 1 BHPERI_TS5;28.3;kcal/mol
-6;-1 BHPERI_1,5-Hexadiene + 1 BHPERI_TS6;35.8;kcal/mol
-7;-1 BHPERI_1,3-Butadiene + -1 BHPERI_Ethylene + 1 BHPERI_TS7;22.3;kcal/mol
-8;-1 BHPERI_1,3-Cyclopentadiene + -1 BHPERI_Ethylene + 1 BHPERI_TS8;18.0;kcal/mol
-9;-2 BHPERI_1,3-Cyclopentadiene + 1 BHPERI_TS11;14.5;kcal/mol
+4;-1 BHPERI_1-3-Pentadiene + 1 BHPERI_TS4;39.7;kcal/mol
+5;-1 BHPERI_1-3-Cyclopentadiene + 1 BHPERI_TS5;28.3;kcal/mol
+6;-1 BHPERI_1-5-Hexadiene + 1 BHPERI_TS6;35.8;kcal/mol
+7;-1 BHPERI_1-3-Butadiene + -1 BHPERI_Ethylene + 1 BHPERI_TS7;22.3;kcal/mol
+8;-1 BHPERI_1-3-Cyclopentadiene + -1 BHPERI_Ethylene + 1 BHPERI_TS8;18.0;kcal/mol
+9;-2 BHPERI_1-3-Cyclopentadiene + 1 BHPERI_TS11;14.5;kcal/mol
 10;-1 BHPERI_Cis-triscyclopropacyclohexane + 1 BHPERI_TS9;26.4;kcal/mol
 11;-1 BHPERI_13r_1 + -1 BHPERI_13_c2h4 + 1 BHPERI_13ts_1a;27.6;kcal/mol
 12;-1 BHPERI_13r_2 + -1 BHPERI_13_c2h4 + 1 BHPERI_13ts_2a;20.0;kcal/mol
