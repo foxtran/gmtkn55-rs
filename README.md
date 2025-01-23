@@ -1,0 +1,16 @@
+# Reproduce GMTKN55 dataset
+
+This repo collects data and scripts for reproducing GMTKN55 and related datasets (mostly from Tim Gould)
+
+## Dataset notices
+
+## Computation notices
+
+- WATER27 dataset has improper reference data in `._res` script. Use reference data from GMTKN55 website.
+- Reaction #2 from DC13 uses old value (from DC9) during computing error for, at least, PBE0 and PBEh1PBE functionals, therefore the data is not consistent between officially published and presented here.
+
+### Gaussian
+
+All calculation were computed with Gaussian 09 rev. B. Therefore, data is presented ONLY for dispersionless functionals.
+
+`RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`.
