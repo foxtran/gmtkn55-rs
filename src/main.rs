@@ -56,6 +56,6 @@ fn main() {
             move |key: &String| method_data.get_energy(key),
             Some(args.with_uncertainty),
         );
-        res.iter().for_each(|x| println!("{:<4} {:5.2}", x.0, x.1));
+        res.iter().for_each(|x| println!("{:<4} {:8.2}", x.0, x.1));
     }
 }
