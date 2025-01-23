@@ -4,10 +4,10 @@ This repo collects data and scripts for reproducing GMTKN55 and related datasets
 
 ## Dataset notices
 
-## Computation notices
-
 - WATER27 dataset has improper reference data in `._res` script. Use reference data from GMTKN55 website.
 - Reaction #2 from DC13 uses old value (from DC9) during computing error for, at least, PBE0 and PBEh1PBE functionals, therefore the data is not consistent between officially published and presented here.
+
+## Computation notices
 
 ### Gaussian
 
