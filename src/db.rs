@@ -148,7 +148,21 @@ impl Database {
             f64::sqrt(data.iter().map(|x| x.1 * x.1).sum::<f64>() / data.len() as f64),
         ));
         results.push((
+            String::from("MIN"),
+            data.iter()
+                .map(|x| x.1)
+                .min_by(|a, b| a.partial_cmp(b).unwrap())
+                .unwrap_or(0.0),
+        ));
+        results.push((
             String::from("MAX"),
+            data.iter()
+                .map(|x| x.1)
+                .max_by(|a, b| a.partial_cmp(b).unwrap())
+                .unwrap_or(0.0),
+        ));
+        results.push((
+            String::from("AMAX"),
             data.iter()
                 .map(|x| f64::abs(x.1))
                 .max_by(|a, b| a.partial_cmp(b).unwrap())
