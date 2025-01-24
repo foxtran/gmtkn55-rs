@@ -111,7 +111,7 @@ impl Database {
                 .map(|pair| pair.1 * compute(&pair.0))
                 .sum();
             //todo!("Implement type conversion");
-            if with_uncertainty.is_some() && with_uncertainty.unwrap() {
+            if Some(true) == with_uncertainty {
                 let diff = val - dbrecord.reference_value;
                 if f64::abs(diff) < dbrecord.uncertainty {
                     val = 0.0
