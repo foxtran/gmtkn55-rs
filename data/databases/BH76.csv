@@ -32,7 +32,7 @@ ReactionName;Reaction;ReferenceValue;Unit
 31;-1 BH76_H + -1 BH76_co + 1 BH76_hcots;3.2;kcal/mol
 32;-1 BH76_hco + 1 BH76_hcots;22.8;kcal/mol
 33;-1 BH76_H + -1 BH76_c2h4 + 1 BH76_c2h5ts;2.0;kcal/mol
-34;-1 BH76_c2h5 + 1 BH76_c2h5ts;42.0;kcal/mol
+34;-1 BH76_c2h5_v2 + 1 BH76_c2h5ts;42.0;kcal/mol
 35;-1 BH76_CH3 + -1 BH76_c2h4 + 1 BH76_c3h7ts;6.4;kcal/mol
 36;-1 BH76_c3h7 + 1 BH76_c3h7ts;33.0;kcal/mol
 37;-1 BH76_hcn + 1 BH76_hcnts;48.1;kcal/mol
@@ -52,7 +52,7 @@ ReactionName;Reaction;ReferenceValue;Unit
 51;-1 BH76_HCl + -1 BH76_CH3 + 1 BH76_RKT08;1.8;kcal/mol
 52;-1 BH76_Cl + -1 BH76_CH4 + 1 BH76_RKT08;6.8;kcal/mol
 53;-1 BH76_OH + -1 BH76_C2H6 + 1 BH76_RKT09;3.5;kcal/mol
-54;-1 BH76_H2O + -1 BH76_C2H5 + 1 BH76_RKT09;20.4;kcal/mol
+54;-1 BH76_H2O + -1 BH76_C2H5_v1 + 1 BH76_RKT09;20.4;kcal/mol
 55;-1 BH76_F + -1 BH76_H2 + 1 BH76_RKT10;1.6;kcal/mol
 56;-1 BH76_HF + -1 BH76_H + 1 BH76_RKT10;33.8;kcal/mol
 57;-1 BH76_O + -1 BH76_CH4 + 1 BH76_RKT11;14.4;kcal/mol
@@ -67,10 +67,10 @@ ReactionName;Reaction;ReferenceValue;Unit
 66;-1 BH76_OH + -1 BH76_Cl + 1 BH76_RKT17;9.9;kcal/mol
 67;-1 BH76_NH2 + -1 BH76_CH3 + 1 BH76_RKT18;8.9;kcal/mol
 68;-1 BH76_NH + -1 BH76_CH4 + 1 BH76_RKT18;22.0;kcal/mol
-69;-1 BH76_NH2 + -1 BH76_C2H5 + 1 BH76_RKT19;9.8;kcal/mol
+69;-1 BH76_NH2 + -1 BH76_C2H5_v1 + 1 BH76_RKT19;9.8;kcal/mol
 70;-1 BH76_NH + -1 BH76_C2H6 + 1 BH76_RKT19;19.4;kcal/mol
 71;-1 BH76_C2H6 + -1 BH76_NH2 + 1 BH76_RKT20;11.3;kcal/mol
-72;-1 BH76_C2H5 + -1 BH76_NH3 + 1 BH76_RKT20;17.8;kcal/mol
+72;-1 BH76_C2H5_v1 + -1 BH76_NH3 + 1 BH76_RKT20;17.8;kcal/mol
 73;-1 BH76_NH2 + -1 BH76_CH4 + 1 BH76_RKT21;13.9;kcal/mol
 74;-1 BH76_NH3 + -1 BH76_CH3 + 1 BH76_RKT21;16.9;kcal/mol
 75;-1 BH76_C5H8 + 1 BH76_RKT22;39.7;kcal/mol
