@@ -23,6 +23,12 @@ This repo collects data and scripts for reproducing GMTKN55 and related datasets
 
 All calculation were computed with Gaussian 09 rev. B. Therefore, data is presented ONLY for dispersionless functionals.
 
+#### PBEh1PBE
+
+`RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`.
+
+#### PBE0
+
 `RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`.
 
 ## Data collection notices
