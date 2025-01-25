@@ -52,10 +52,20 @@ fn main() {
             &String::from(""),
         )
         .expect("DB's data is not provided properly!");
-        let res = db.compute_stat(
-            move |key: &String| method_data.get_energy(key),
+        let res_diff = db.compute_diff(
+            &|key: &String| method_data.get_energy(key),
             Some(args.with_uncertainty),
         );
-        res.iter().for_each(|x| println!("{:<4} {:8.2}", x.0, x.1));
+        let res_stat = db.compute_stat(
+            &|key: &String| method_data.get_energy(key),
+            Some(args.with_uncertainty),
+        );
+        res_diff
+            .iter()
+            .for_each(|x| println!("{:<4} {:8.2}", x.0, x.1));
+        println!();
+        res_stat
+            .iter()
+            .for_each(|x| println!("{:<4} {:8.2}", x.0, x.1));
     }
 }
