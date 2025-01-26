@@ -54,11 +54,11 @@ fn main() {
         )
         .expect("DB's data is not provided properly!");
         let res_diff = db.compute_diff(
-            &|key: &String| method_data.get_energy(key),
+            &|key: &str, unit: &str| method_data.get_energy(key, unit),
             Some(args.with_uncertainty),
         );
         let res_stat = db.compute_stat(
-            &|key: &String| method_data.get_energy(key),
+            &|key: &str, unit: &str| method_data.get_energy(key, unit),
             Some(args.with_uncertainty),
         );
         res_diff

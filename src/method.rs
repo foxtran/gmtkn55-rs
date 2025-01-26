@@ -1,3 +1,5 @@
+use crate::units::{self, unit_scale};
+
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
@@ -38,16 +40,16 @@ impl Method {
         })
     }
 
-    pub fn get_energy(&self, geometry: &String) -> f64 {
+    pub fn get_energy(&self, geometry: &str, unit: &str) -> f64 {
         let data = self
             .data
             .iter()
-            .filter(|x| x.geometry.as_str() == geometry.as_str())
+            .filter(|x| x.geometry.as_str() == geometry)
             .map(|x| (x.energy, &x.unit))
             .collect::<Vec<(f64, &String)>>();
         if data.len() != 1 {
             panic!("Unknown geometry '{}'", geometry);
         }
-        data[0].0 * 627.5095
+        data[0].0 * unit_scale(data[0].1.as_str(), unit)
     }
 }
