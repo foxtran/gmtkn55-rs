@@ -68,28 +68,28 @@ impl Database {
         });
     }
 
-    pub fn compute<CB: Fn(&String) -> f64>(&self, compute: &CB) -> Vec<(String, f64)> {
+    pub fn compute<CB: Fn(&str, &str) -> f64>(&self, compute: &CB) -> Vec<(String, f64)> {
         let mut results: Vec<(String, f64)> = vec![];
         self.data.iter().for_each(|dbrecord| {
             let val: f64 = dbrecord
                 .reaction_internal
                 .compounds
                 .iter()
-                .map(|pair| pair.1 * compute(&pair.0))
+                .map(|pair| pair.1 * compute(&pair.0, &dbrecord.unit))
                 .sum();
             results.push((dbrecord.data_id.clone(), val));
         });
         return results;
     }
 
-    pub fn update(&mut self, compute: &fn(&String) -> f64, uncertainty: Option<f64>) {
+    pub fn update<CB: Fn(&str, &str) -> f64>(&mut self, compute: &CB, uncertainty: Option<f64>) {
         //todo!("Implement type conversion");
         self.data.iter_mut().for_each(|dbrecord| {
             dbrecord.reference_value = dbrecord
                 .reaction_internal
                 .compounds
                 .iter()
-                .map(|pair| pair.1 * compute(&pair.0))
+                .map(|pair| pair.1 * compute(&pair.0, &dbrecord.unit))
                 .sum();
             if uncertainty.is_some() {
                 dbrecord.uncertainty = uncertainty.unwrap();
@@ -97,7 +97,7 @@ impl Database {
         });
     }
 
-    pub fn compute_diff<CB: Fn(&String) -> f64>(
+    pub fn compute_diff<CB: Fn(&str, &str) -> f64>(
         &self,
         compute: &CB,
         with_uncertainty: Option<bool>,
@@ -108,9 +108,8 @@ impl Database {
                 .reaction_internal
                 .compounds
                 .iter()
-                .map(|pair| pair.1 * compute(&pair.0))
+                .map(|pair| pair.1 * compute(&pair.0, &dbrecord.unit))
                 .sum();
-            //todo!("Implement type conversion");
             if Some(true) == with_uncertainty {
                 let diff = val - dbrecord.reference_value;
                 if f64::abs(diff) < dbrecord.uncertainty {
@@ -128,7 +127,7 @@ impl Database {
         return results;
     }
 
-    pub fn compute_stat<CB: Fn(&String) -> f64>(
+    pub fn compute_stat<CB: Fn(&str, &str) -> f64>(
         &self,
         compute: &CB,
         with_uncertainty: Option<bool>,
