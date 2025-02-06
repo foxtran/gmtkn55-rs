@@ -1,0 +1,13 @@
+! {FUNC} TightSCF NOCOSX DEFGRID3 RIJK
+%basis
+  GTOName "{BASISHELP}"
+end
+
+%pal
+nprocs 8
+end
+%maxcore 1400
+
+*xyz {chrg} {mult}
+{coord}
+*

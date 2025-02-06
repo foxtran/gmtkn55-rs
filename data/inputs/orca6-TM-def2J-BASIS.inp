@@ -1,0 +1,14 @@
+! {FUNC} TightSCF RIJONX DEFGRID3
+%basis
+  GTOName "{BASISHELP}"
+  AuxJ "def2/J"
+end
+
+%pal
+nprocs 8
+end
+%maxcore 1400
+
+*xyz {chrg} {mult}
+{coord}
+*

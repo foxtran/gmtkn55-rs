@@ -1,0 +1,19 @@
+! {FUNC} {BASIS} TightSCF RIJONX DEFGRID3
+%basis
+  AuxJ "def2/J"
+  AddGTO O
+    S 1
+    1 0.0695900 1.0000000
+    P 1
+    1 0.0534800 1.0000000
+  end
+end
+
+%pal
+nprocs 8
+end
+%maxcore 1400
+
+*xyz {chrg} {mult}
+{coord}
+*

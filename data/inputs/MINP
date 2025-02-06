@@ -1,0 +1,24 @@
+mem=8GB
+
+calc={FUNC}
+basis={BASIS}
+dfbasis_scf={DF_BASIS}
+#ecp={ECP_BASIS}
+
+verbosity=3
+
+# numerical precision
+scftol=7
+grtol=12
+
+# algo
+scfalg=direct
+
+# structure
+charge={chrg}
+mult={mult}
+
+geom=xyz
+{natoms}
+
+{struct}
