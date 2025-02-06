@@ -1,0 +1,10 @@
+! {FUNC} {BASIS} TightSCF NOCOSX DEFGRID3 RIJK
+
+%pal
+nprocs 8
+end
+%maxcore 1400
+
+*xyz {chrg} {mult}
+{coord}
+*
