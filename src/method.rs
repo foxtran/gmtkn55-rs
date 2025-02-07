@@ -1,4 +1,4 @@
-use crate::units::{self, unit_scale};
+use crate::units::unit_scale;
 
 use serde::Deserialize;
 
