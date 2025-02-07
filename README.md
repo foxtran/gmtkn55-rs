@@ -37,3 +37,30 @@ To collect data, I originally used `.res` scripts with my own implementation of 
 Note, some datasets uses another script inside `.res` scripts and therefore you need to patch them.
 Geometries can be nicely collected from ORCA 6.0.1 release, or you can collect them by your own hands.
 To avoid any issues, it is recommended to do it on register-dependent filesystems.
+
+## Basis set dependence
+
+DC21 dataset has significant difference for some reactions (noticible for reactions 2, 7, 9, 10). See the table below.
+Other datasets may also have difference depending on chosen RI/DF approximations.
+
+|      | PBE0 (Gaussian) | PBE0 + def2J (ORCA) | PBE0 + AutoAuxJ (ORCA) | PBE0 + def2JK (ORCA) |
+|-----:|----------------:|--------------------:|-----------------------:|---------------------:|
+|    1 |            0.98 |                0.98 |                   0.98 |                 0.98 |
+|    2 |            3.65 |                3.71 |                   3.56 |                 3.71 |
+|    3 |            8.10 |                8.09 |                   8.10 |                 8.09 |
+|    4 |           10.03 |               10.07 |                  10.02 |                10.07 |
+|    5 |           -7.68 |               -7.72 |                  -7.71 |                -7.72 |
+|    6 |           22.20 |               22.23 |                  22.20 |                22.23 |
+|    7 |           -1.07 |               -1.17 |                  -1.07 |                -1.17 |
+|    8 |          -21.09 |              -21.14 |                 -21.08 |               -21.14 |
+|    9 |            8.93 |                8.77 |                   8.93 |                 8.77 |
+|   10 |           -5.96 |               -5.95 |                  -5.86 |                -5.95 |
+|   11 |           -8.33 |               -8.37 |                  -8.33 |                -8.37 |
+|   12 |           -5.54 |               -5.58 |                  -5.55 |                -5.58 |
+|   13 |          -11.57 |              -11.53 |                 -11.55 |               -11.53 |
+|   MD |           -0.57 |               -0.58 |                  -0.57 |                -0.58 |
+|  MAE |            8.86 |                8.87 |                   8.84 |                 8.87 |
+| RMSE |           10.84 |               10.85 |                  10.83 |                10.85 |
+|  MIN |          -21.09 |              -21.14 |                 -21.08 |               -21.14 |
+|  MAX |           22.20 |               22.23 |                  22.20 |                22.23 |
+| AMAX |           22.20 |               22.23 |                  22.20 |                22.23 |
