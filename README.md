@@ -40,7 +40,7 @@ To avoid any issues, it is recommended to do it on register-dependent filesystem
 
 ## Basis set dependence
 
-DC21 dataset has significant difference for some reactions (noticible for reactions 2, 7, 9, 10). See the table below. Note, original data is presented as is without correction.
+DC13 dataset has significant difference for some reactions (noticible for reactions 2, 7, 9, 10). See the table below. Note, original data is presented as is without correction.
 Other datasets may also have difference depending on chosen RI/DF approximations.
 
 |      | PBE0 (Gaussian) | PBE0 + def2J (ORCA) | PBE0 + AutoAuxJ (ORCA) | PBE0 + def2JK (ORCA) | PBE0 + DF-JK (MRCC) | PBE0 + def2J (TM/orig.data) |
@@ -51,13 +51,14 @@ Other datasets may also have difference depending on chosen RI/DF approximations
 |    4 |           10.03 |               10.07 |                  10.02 |                10.07 |               10.08 |                       10.04 |
 |    5 |           -7.68 |               -7.72 |                  -7.71 |                -7.72 |               -7.73 |                       -7.76 |
 |    6 |           22.20 |               22.23 |                  22.20 |                22.23 |               22.24 |                       22.23 |
-|    7 |           -1.07 |           **-1.17** |                  -1.07 |            **-1.17** |               -1.09 |                       -1.17 |
+|    7 |           -1.07 |           **-1.17** |                  -1.07 |            **-1.17** |               -1.09 |                   **-1.17** |
 |    8 |          -21.09 |              -21.14 |                 -21.08 |               -21.14 |              -21.09 |                      -21.14 |
 |    9 |            8.93 |            **8.77** |                   8.93 |             **8.77** |                8.96 |                    **8.76** |
 |   10 |           -5.96 |               -5.95 |              **-5.86** |                -5.95 |               -5.93 |                       -5.97 |
 |   11 |           -8.33 |               -8.37 |                  -8.33 |                -8.37 |               -8.34 |                       -8.37 |
 |   12 |           -5.54 |               -5.58 |                  -5.55 |                -5.58 |               -5.56 |                       -5.58 |
 |   13 |          -11.57 |              -11.53 |                 -11.55 |               -11.53 |              -11.51 |                      -11.51 |
+|      |                 |                     |                        |                      |                     |                             |
 |   MD |           -0.57 |               -0.58 |                  -0.57 |                -0.58 |               -0.56 |                       -0.17 |
 |  MAE |            8.86 |                8.87 |                   8.84 |                 8.87 |                8.87 |                        9.29 |
 | RMSE |           10.84 |               10.85 |                  10.83 |                10.85 |               10.85 |                       11.10 |
