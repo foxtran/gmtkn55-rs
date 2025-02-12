@@ -21,7 +21,7 @@ This repo collects data and scripts for reproducing GMTKN55 and related datasets
 
 ### Gaussian
 
-All calculation were computed with Gaussian 09 rev. B. Therefore, data is presented ONLY for dispersionless functionals.
+All calculations were computed with Gaussian 09 rev. B. Therefore, data is presented ONLY for dispersionless functionals.
 
 #### PBEh1PBE
 
@@ -30,6 +30,14 @@ All calculation were computed with Gaussian 09 rev. B. Therefore, data is presen
 #### PBE0
 
 `RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`.
+
+### MRCC
+
+All calculations were computed with MRCC 31-12-2024 version.
+
+#### PBE0
+
+`RG18_c2h6` was computed with disabled symmetry.
 
 ## Data collection notices
 
