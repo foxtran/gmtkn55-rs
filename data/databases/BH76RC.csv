@@ -8,7 +8,7 @@ ReactionName;Reaction;ReferenceValue;Unit
 7;-1 BH76_oh- + -1 BH76_ch3f + 1 BH76_CH3OH + 1 BH76_f-;-20.32;kcal/mol
 8;-1 BH76_hoch3fcomp2 + 1 BH76_hoch3fcomp1;-36.71;kcal/mol
 9;-1 BH76_H + -1 BH76_n2 + 1 BH76_hn2;3.69;kcal/mol
-10;-1 BH76_H + -1 BH76_co + 1 BH76_hco;-19.55;kcal/mols
+10;-1 BH76_H + -1 BH76_co + 1 BH76_hco;-19.55;kcal/mol
 11;-1 BH76_H + -1 BH76_c2h4 + 1 BH76_c2h5_v2;-40.02;kcal/mol
 12;-1 BH76_CH3 + -1 BH76_c2h4 + 1 BH76_c3h7;-26.56;kcal/mol
 13;-1 BH76_hnc + 1 BH76_hcn;-15.06;kcal/mol
