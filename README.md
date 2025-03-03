@@ -8,7 +8,7 @@ This repo collects data and scripts for reproducing GMTKN55 and related datasets
 2. Clone this repo via [Git](https://git-scm.com): `git clone https://github.com/foxtran/gmtkn55-rs.git`
 3. Go to directory: `cd gmtkn55-rs`
 4. Use [cargo](https://doc.rust-lang.org/cargo/) to run: `cargo run --release -- --help`. It will provide some help.
-5. To compute something useful, use: `cargo run --release -- --data data/computed/PBE0-Gaussian09revB.csv --dbfile data/databases/NBPRC.csv`. You can check data formats and provide your own data and datasets.
+5. To compute something useful, use: `cargo run --release -- --data data/computed/PBE0-Gaussian09revB.csv --dbdir data/databases --db NBPRC`. You can check data formats and provide your own data and datasets.
 
 ## Dataset notices
 

@@ -14,9 +14,13 @@ struct Args {
     #[arg(long)]
     data: std::path::PathBuf,
 
-    /// File with database
+    /// directory with databases
     #[arg(long)]
-    dbfile: Option<std::path::PathBuf>,
+    dbdir: std::path::PathBuf,
+
+    /// database name
+    #[arg(long)]
+    db: Option<String>,
 
     /// DB name to compute
     #[arg(long)]
@@ -29,8 +33,8 @@ struct Args {
 
 fn main() {
     let args = Args::parse();
-    if args.compute.is_none() && args.dbfile.is_none() {
-        println!("Nothing to compute! Please, provide --compute or --dbfile option!");
+    if args.compute.is_none() && args.db.is_none() {
+        println!("Nothing to compute! Please, provide --compute or --db option!");
         return ();
     }
     let method_data: Method =
@@ -44,10 +48,11 @@ fn main() {
     if args.compute.is_some() {
         panic!("NOT IMPLEMENTED");
     }
-    if args.dbfile.is_some() {
+    if args.db.is_some() {
+        let dbpath = args.dbdir.join(args.db.clone().unwrap() + ".csv");
         let db = db::Database::new(
-            &args.dbfile.clone().unwrap(),
-            &args.dbfile.unwrap().into_os_string().into_string().unwrap(),
+            &dbpath,
+            &args.db.unwrap(),
             &String::from(""),
             &String::from(""),
             &String::from(""),
