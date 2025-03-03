@@ -1,0 +1,13 @@
+%nprocshared=8
+%mem=8Gb
+#p {FUNC}/{BASIS} SCF(Conver=7) Integral(Grid=-300048)
+
+TIT
+
+{chrg} {mult}
+{coord}
+
+{BASISHELP}
+   
+   
+   
