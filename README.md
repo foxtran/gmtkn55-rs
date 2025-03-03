@@ -25,15 +25,27 @@ All calculations were computed with Gaussian 09 rev. B. Therefore, data is prese
 
 #### PBEh1PBE
 
-`RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`. FineGrid was used.
+FineGrid was used.
+
+System specific changes:
+- `RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`.
+- `W4-11_cloo` was computed with `SCF(QC)`.
 
 #### PBE0
 
-`RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`. FineGrid was used.
+FineGrid was used.
+
+System specific changes:
+- `RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`.
+- `W4-11_cloo` was computed with `SCF(QC)`.
 
 #### PBE0
 
-`RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`. Grid was changed with `Integral(Grid=-300048)` keyword. For data, see `PBE0-Gaussian09revB-300048.csv` file.
+Grid was changed with `Integral(Grid=-300048)` keyword. For data, see `PBE0-Gaussian09revB-300048.csv` file.
+
+System specific changes:
+- `RC21_2p2` was computed with non-standard guess. Used guess is `guess(Huckel)`.
+- `W4-11_cloo` was computed with `SCF(QC)`.
 
 ### MRCC
 
